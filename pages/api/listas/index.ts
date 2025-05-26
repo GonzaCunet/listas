@@ -1,5 +1,4 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { parse } from "path";
 
 function getLista() {
   const arr = Array.from(Array(1000).keys());
